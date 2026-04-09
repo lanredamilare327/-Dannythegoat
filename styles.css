@@ -1,0 +1,297 @@
+ /* ---------- RESET / GLOBAL ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      color: #1A1A1B;
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    /* ---------- UTILITY / LINKS ---------- */
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* ---------- HEADER (medium‑style top bar) ---------- */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 24px;
+      border-bottom: 1px solid #f0f0f0;
+      background: #ffffff;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    .medium-logo {
+      font-size: 1.8rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #000;
+      line-height: 1;
+    }
+
+   
+
+    /* right side actions */
+    .user-actions {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      font-size: 0.95rem;
+    }
+    .user-actions a {
+      color: #1A1A1B;
+      font-weight: 400;
+    }
+    .user-actions .sign-in {
+      color: #1A1A1B;
+    }
+   
+
+.flex_styling{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+
+
+
+.human-stories{
+    font-size: 3.5rem;
+    font-weight: 500;
+    
+
+}
+
+.reading{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.start-reading-btn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.img-flex{
+      display: flex;
+     width: 320px;
+      background-color: #ffffff;
+      border: 1px solid #f0f0f0;
+      border-radius: 12px;
+      padding: 32px 4px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      justify-content: center;
+      align-items: center;
+      margin-top: 1px;
+}
+
+.human{
+    margin-left: 25px;
+}
+
+
+.bottom-links{
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f0f0f0;
+  padding: 16px 24px;
+  position: fixed;
+      top: auto;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+}
+
+.bottom-links a{
+  color: #1A1A1B;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+
+
+   
+
+
+ @media (min-width: 701px) {
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .user-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+         .user-actions a {
+          font-size: 0.9rem;
+        }
+        .img-flex{
+          
+          
+        }
+        .flex_styling{
+          width: 100px;
+          gap: 25px;
+          margin-top: 100px;
+        }
+        body{
+          height: 790px;
+        }
+
+    }
+    
+    
+  
+
+    /* Responsive */
+  
+    @media (max-width: 700px) {
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .user-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+         .user-actions a {
+          font-size: 0.9rem;
+        }
+        .img-flex{
+          
+          
+        }
+        .flex_styling{
+          width: 100px;
+          gap: 25px;
+          margin-top: 100px;
+        }
+        body{
+          height: 770px;
+        }
+
+    }
+
+
+ @media (max-width: 500px) {
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .user-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+         .user-actions a {
+          font-size: 0.9rem;
+        }
+        .img-flex{
+          
+          
+        }
+        .flex_styling{
+          width: 100px;
+          gap: 25px;
+          margin-top: 100px;
+        }
+        body{
+          height: 800px;
+        }
+
+    }
+
+ @media (max-width: 400px) {
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .user-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+         .user-actions a {
+          font-size: 0.9rem;
+        }
+        .img-flex{
+          
+          
+        }
+        .flex_styling{
+          width: 100px;
+          gap: 25px;
+          margin-top: 100px;
+        }
+        body{
+          height: 770px;
+        }
+
+    }
+
+
+
+/* @media (max-width: 414px) {
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+      .user-actions {
+        width: 100%;
+        justify-content: flex-start;
+      }
+         .user-actions a {
+          font-size: 0.9rem;
+        }
+        .img-flex{
+          
+          
+        }
+        .flex_styling{
+          width: 100px;
+          gap: 25px;
+          margin-top: 100px;
+        }
+        body{
+          height: 720px;
+        }
+
+    } */
+
+
